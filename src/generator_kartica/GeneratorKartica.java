@@ -10,7 +10,7 @@ public class GeneratorKartica {
 	public static void main(String[] args) {
 		int broj_kartica = 20;
 		String naziv_fajla = "kreditne_kartice.txt";
-		if (args.length > 1) {
+		if (args.length > 0) {
 			broj_kartica = Integer.parseInt(args[0]);
 			naziv_fajla = args[1];
 		}
