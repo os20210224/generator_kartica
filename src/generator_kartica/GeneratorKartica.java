@@ -12,6 +12,8 @@ public class GeneratorKartica {
 		String naziv_fajla = "kreditne_kartice.txt";
 		if (args.length > 0) {
 			broj_kartica = Integer.parseInt(args[0]);
+		} else if (args.length > 1) {
+			broj_kartica = Integer.parseInt(args[0]);
 			naziv_fajla = args[1];
 		}
 		if (generisi_kartice(broj_kartica, naziv_fajla)) {
